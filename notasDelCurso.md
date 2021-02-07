@@ -39,3 +39,21 @@ Imitando lo que viste en los recientes tutoriales, realiza los pasos a continuac
 ## PÁGINAS COMPLEMENTARIAS PARA ESTUDIAR
   - presenta buenos ejemplos de navbar, estudialo: 
   - https://uniwebsidad.com/libros/bootstrap-3/capitulo-6/elementos-de-navegacion
+
+### GUIA
+
+Imitando lo que viste en los recientes tutoriales, realiza los pasos a continuación. Recuerda que, para comprobar cuánto has aprendido, al final de cada módulo otros participantes medirán tu avance.
+
+ 1)	Dentro del body, crea un componente de navegación que tenga el nombre del proyecto a la izquierda y luego algunas secciones del sitio. 
+
+2)	Haz que la barra de navegación quede fija en la parte superior, es decir, que por más que te deslices hacia abajo, la barra siempre permanece visible al tope de la página. 
+
+3)	Crea la versión responsive de la barra y asegúrate que se vea bien en los diferentes dispositivos. Recuerda utilizar las herramientas de desarrollo de los browsers. 
+
+ 4)	Crea una página simple (no importa ahora el contenido) para cada sección declara en la barra de navegación y vincula los links de la barra con las páginas que acabas de crear. 
+
+5)	Ingresa al sitio www.lipsum.com y rellena tus páginas con algún texto que te guste (opcional). 
+
+6)	Agrega los componentes breadcrumbs en las diferentes páginas y asegúrate que estén vinculando a las páginas correspondientes y ubicando al usuario en el mapa de sitio que corresponde. 
+
+7)	Sube los cambios al repositorio utilizando los comandos de GIT y revisa los logs.  
