@@ -23,9 +23,9 @@
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
                     <li class="nav-item "><a href="./about.html" class="nav-link">Nosotros</a></li>
-                    <li class="nav-item "><a href="./precios.html" class="nav-link">Precio</a></li>
+                    <li class="nav-item "><a href="#" class="nav-link">Precio</a></li>
                     <li class="nav-item "><a href="#" class="nav-link">Términos</a></li>
-                    <li class="nav-item "><a href="#" class="nav-link">Condición</a></li>
+                    <li class="nav-item "><a href="#" class="nav-link">Condiciós</a></li>
                     
                 </ul>
                 
@@ -40,86 +40,86 @@
     <!-- CONTAINER start-->
       <div class="container">
           <!-- BREADCRUMB START-->
-        <nav aria-label="breadcrumb">
+          <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item active" aria-current="page">Home</li>
+                <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Precios</li>
             </ol>
         </nav>
           <!-- BREADCRUMB END-->
-          <div class="d-flex"><!-- cambiar a row-->
-              <div class="col-sm-4">
-                  <p>
-                      <h3>¿Cómo funciona?</h3>
-                      <p>Buscá los hoteles de acuerdo a tu preferencia.</p>
-                  </p>
-              </div>
 
-              <div class="col-sm-4">
-                  <p>
-                      <h3>¿Dónde puedo Reservar?</h3>
-                      <p>Elija la ciudad que te interese y luego realiza la reserva con tus datos. </p>
-                  </p>
-              </div>
+        <div class="table-responsive"> <!---Rodeamos el componente tabla -->
+        <table class="table table-striped">
+            <thead class="thead-dark">
+                <th>Calidad</th>
+                <th>Pinamar</th>
+                <th>Mar del Plata</th>
+                <th>San Clemente</th>
+                <th>Santa Teresita</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="oi oi-star"></span></td>
+                    <td>$100</td>
+                    <td>$120</td>
+                    <td>$150</td>
+                    <td>$180</td>
+                </tr>
 
-              <div class="col-sm-4">
-                <p>
-                    <h3>¿Cómo pago?</h3>
-                    <p>Utiliza tu tarjeta favorita </p>
-                </p>
-            </div>
-         </div><!-- d-FLEX-->
-         <hr>
+                <tr>
+                    <td>
+                        <span class="oi oi-star"></span>
+                        <span class="oi oi-star"></span>
+                    </td>
+                    <td>$100</td>
+                    <td>$120</td>
+                    <td>$150</td>
+                    <td>$180</td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <span class="oi oi-star"></span>
+                        <span class="oi oi-star"></span>
+                        <span class="oi oi-star"></span>
+                    </td>
+                    <td>$100</td>
+                    <td>$120</td>
+                    <td>$150</td>
+                    <td>$180</td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <span class="oi oi-star"></span>
+                        <span class="oi oi-star"></span>
+                        <span class="oi oi-star"></span>
+                        <span class="oi oi-star"></span>
+                    </td>
+                    <td>$100</td>
+                    <td>$120</td>
+                    <td>$150</td>
+                    <td>$180</td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <span class="oi oi-star"></span>
+                        <span class="oi oi-star"></span>
+                        <span class="oi oi-star"></span>
+                        <span class="oi oi-star"></span>
+                        <span class="oi oi-star"></span>
+                    </td>
+                    <td>$100</td>
+                    <td>$120</td>
+                    <td>$150</td>
+                    <td>$180</td>
+                </tr>
+            </tbody>
+        </table>
+        </div> <!-- tabla rodeada -->
 
-         <!-- CARD-HOTEL-->
-            
-             <div class="d-flex flex-wrap ">
-                 
-                <!-- elementos row -->    
-                <div class="card-hotel d-flex flex-column justify-content-between">
-                    <div>
-                            <h4>Hotel Barcelona</h4>
-                            <p>Hotel ubicado en pleno centro de barcelona a pocos metros de la playa</p>
-                    </div>         
-                    <div>
-                            <button class="btn btn-primary btn-reserva">Reservar <span class="oi oi-plus footer-address-icon"></span></button>
-                     </div>
-                 </div>
-             
-         
-              <!-- elementos-->
-               <div class="card-hotel d-flex flex-column justify-content-between">
-                   <div>
-                                <h4>Hotel Lima</h4>
-                                <p>Hotel ubicado en pleno centro</p>
-                    </div>
-                    <div>
-                                <button class="btn btn-primary btn-reserva">Reservar</button>
-                    </div>
-                </div>
-
-                <!-- elementos-->
-               <div class="card-hotel d-flex flex-column justify-content-between">
-                   <div>
-                                <h4>Hotel Buenos Aires</h4>
-                                <p>Hotel ubicado en pleno centro</p>
-                    </div>
-                    <div>
-                                <button class="btn btn-primary btn-reserva">Reservar</button>
-                    </div>
-                </div>
-
-                <!-- elementos-->
-               <div class="card-hotel d-flex flex-column justify-content-between">
-                   <div>
-                                <h4>Hotel Rio de Janeiro</h4>
-                                <p>Hotel ubicado en pleno centro a pocos metros de la playa</p>
-                   </div>
-                   <div>
-                                <button class="btn btn-primary btn-reserva">Reservar</button>
-                   </div>
-                </div>
-
-            </div> <!--d-flex-->
+          
       </div> <!-- CONTAINER-->
   
       <footer>
