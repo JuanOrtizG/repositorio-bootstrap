@@ -57,3 +57,25 @@ Imitando lo que viste en los recientes tutoriales, realiza los pasos a continuac
 6)	Agrega los componentes breadcrumbs en las diferentes páginas y asegúrate que estén vinculando a las páginas correspondientes y ubicando al usuario en el mapa de sitio que corresponde. 
 
 7)	Sube los cambios al repositorio utilizando los comandos de GIT y revisa los logs.  
+
+
+## GUIA
+
+Imitando lo que viste en los recientes tutoriales, realiza los pasos a continuación. Recuerda que, para comprobar cuánto has aprendido, al final de cada módulo otros participantes medirán tu avance.
+
+1)	En alguna de las secciones previamente agregadas, crea una tabla que compare diferentes servicios o productos ofrecidos con respecto a un conjunto de atributos o categorías.
+
+2)	Incorpora la librería open-iconic y agrega algunos iconos a la tabla que grafiquen la información que estás mostrando
+
+3)	Haz que la tabla sea responsive permitiendo el scroll del contenido de la tabla sin deformar la página.
+
+4)	Modifica la página principal donde muestras el listado de productos para que los mismos utilicen el componente card con los títulos, cuerpo y footer.
+
+5)	Modifica via css los márgenes y padding, atributos de flex y lo que consideres necesario para que la disposición de los elementos sea prolija y moderna.
+
+6)	Agrega una imagen en cada una de las cards que representen el artículo que estás ofreciendo.
+
+7)	Agrega una imagen en la página principal a modo de banner o encabezado que haga atractivo el sitio o muestre una promoción. Utiliza los componentes adecuados para este propósito.
+
+8)	Subir los cambios al repositorio utilizando los comandos de GIT y revisar los logs.
+

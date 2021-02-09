@@ -13,7 +13,7 @@
     <title>Hello, world!</title>
   </head>
   <body >
-    <!-- barra de navegación start-->
+    <!-- barra de navegación, desde aquí inicia-->
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
             <a href="#" class="navbar-brand">Hoteles</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSuportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="toggle navigation">
@@ -24,28 +24,29 @@
                     <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
                     <li class="nav-item "><a href="./about.html" class="nav-link">Nosotros</a></li>
                     <li class="nav-item "><a href="./precios.html" class="nav-link">Precio</a></li>
-                    <li class="nav-item "><a href="#" class="nav-link">Términos</a></li>
-                    <li class="nav-item "><a href="#" class="nav-link">Condición</a></li>
+                    <li class="nav-item "><a href="./terminos.html" class="nav-link">Términos y Condiciones</a></li>
+                    <li class="nav-item "><a href="./contacto.html" class="nav-link">Contacto</a></li>
                     
                 </ul>
                 
             </div>
         </nav>
-    <!-- barra de navegación end-->
+    <!-- barra de navegación, aquí termina-->
 
 
       <div class="jumbotron">
           <h1>Hoteles</h1>
       </div>
-    <!-- CONTAINER start-->
+    <!-- CONTENIDO, desde aquí inicia -->
       <div class="container">
           <!-- BREADCRUMB START-->
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item active" aria-current="page">Home</li>
-            </ol>
-        </nav>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item active" aria-current="page">Home</li>
+                    </ol>
+                </nav>
           <!-- BREADCRUMB END-->
+
           <div class="d-flex"><!-- cambiar a row-->
               <div class="col-sm-4">
                   <p>
@@ -72,13 +73,26 @@
 
          <!-- CARD-HOTEL-->
             
-             <div class="d-flex flex-wrap ">
+             <div class="d-flex flex-wrap flex-row-reverse ">
+                 <!-- 
+                     Si sustituimos la clase de arriba por la clase "card-columns" solamente,
+                     tendremos un efecto - mosaico Desordenado prolijo- 
+                     <div class="card-columns"> código </div>
+                     se recomienda quietar efectos del flex y aprender este efecto
+                     
+                 -->
+                
                  
-                <!-- elementos row -->    
-                <div class="card-hotel d-flex flex-column justify-content-between">
-                    <div>
-                            <h4>Hotel Barcelona</h4>
-                            <p>Hotel ubicado en pleno centro de barcelona a pocos metros de la playa</p>
+                <!-- elemento 1 -->    
+                <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+                    <img src="./imagen/hotel.jpg" alt="Imagen de hotel" class="img-fluid">
+                    <div class="card-body">
+                            <h5 class="card-title">Hotel Barcelona</h5>
+                            
+                            <h6 class="card-subtitle text-muted">España</h6>
+                            <p class="card-text">
+                                Hotel ubicado en pleno centro de barcelona a pocos metros de la playa
+                            </p>
                     </div>         
                     <div>
                             <button class="btn btn-primary btn-reserva">Reservar <span class="oi oi-plus footer-address-icon"></span></button>
@@ -86,44 +100,104 @@
                  </div>
              
          
-              <!-- elementos-->
-               <div class="card-hotel d-flex flex-column justify-content-between">
-                   <div>
-                                <h4>Hotel Lima</h4>
-                                <p>Hotel ubicado en pleno centro</p>
+              <!-- elemento 2 -->
+               <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+                   <div class="card-body">
+                    <img src="./imagen/hotel.jpg" alt="Imagen de hotel" class="img-fluid">
+                                <h5 class="card-title">Hotel Lima</h5>
+                                <h6 class="card-subtitle text-muted">Perú</h6>
+                                <p class="card-text">Hotel ubicado en pleno centro</p>
                     </div>
                     <div>
                                 <button class="btn btn-primary btn-reserva">Reservar</button>
                     </div>
                 </div>
 
-                <!-- elementos-->
-               <div class="card-hotel d-flex flex-column justify-content-between">
-                   <div>
-                                <h4>Hotel Buenos Aires</h4>
-                                <p>Hotel ubicado en pleno centro</p>
+                <!-- elemento 3 -->
+               <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+                   <div class="card-body">
+                                <h5 class="card-title">Hotel Buenos Aires</h5>
+                                <h6 class="card-subtitle text-muted">Argentina</h6>
+                                <img src="./imagen/hotel.jpg" alt="Imagen de hotel" class="img-fluid">
+                                <p class="card-text">Hotel ubicado en pleno centro</p>
                     </div>
                     <div>
                                 <button class="btn btn-primary btn-reserva">Reservar</button>
                     </div>
                 </div>
 
-                <!-- elementos-->
-               <div class="card-hotel d-flex flex-column justify-content-between">
-                   <div>
-                                <h4>Hotel Rio de Janeiro</h4>
-                                <p>Hotel ubicado en pleno centro a pocos metros de la playa</p>
+                <!-- elemento 4 -->
+               <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+                   <div class="card-body">
+                                <h5 class="card-title">Hotel Rio de Janeiro</h5>
+                                <h6 class="card-subtitle text-muted">Brasil</h6>
+                                <p class="card-text">Hotel ubicado en pleno centro a pocos metros de la playa</p>
+                                <img src="./imagen/hotel.jpg" alt="Imagen de hotel" class="img-fluid">
                    </div>
                    <div>
                                 <button class="btn btn-primary btn-reserva">Reservar</button>
                    </div>
                 </div>
+
+                <!-- elemento 5 -->
+               <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+                <div class="card-body">
+                             <h5 class="card-title">Hotel Asunción</h5>
+                             <h6 class="card-subtitle text-muted">Paraguay</h6>
+                             <p class="card-text">Hotel ubicado en pleno centro a pocos metros de la costa</p>
+                </div>
+                <img src="./imagen/hotel.jpg" alt="Imagen de hotel" class="img-fluid">
+                <div>
+                             <button class="btn btn-primary btn-reserva">Reservar</button>
+                </div>
+             </div>
+
+             <!-- elemento 6 -->
+             <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+                <div class="card-body">
+                             <h5 class="card-title">Hotel México</h5>
+                             <img src="./imagen/hotel.jpg" alt="Imagen de hotel" class="img-fluid">
+                             <h6 class="card-subtitle text-muted">México</h6>
+                             <p class="card-text">Hotel ubicado en pleno centro a pocos metros de la playa</p>
+                </div>
+                <div>
+                             <button class="btn btn-primary btn-reserva">Reservar</button>
+                </div>
+             </div>
+
+             <!-- elemento 7 -->
+             <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+                <img src="./imagen/hotel.jpg" alt="Imagen de hotel" class="img-fluid">
+                <div class="card-body">
+                             <h5 class="card-title">Hotel Farallón</h5>
+                             <h6 class="card-subtitle text-muted">Panamá</h6>
+                             <p class="card-text">Hotel ubicado en pleno centro a pocos metros de la playa</p>
+                </div>
+                <div>
+                             <button class="btn btn-primary btn-reserva">Reservar</button>
+                </div>
+             </div>
+
+             <!-- elemento 8 -->
+             <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+                <img src="./imagen/hotel.jpg" alt="Imagen de hotel" class="img-fluid">
+                <div class="card-body">
+                             <h5 class="card-title">Hotel Costa de la Vida</h5>
+                             <h6 class="card-subtitle text-muted">Costa Rica</h6>
+                             <p class="card-text">Hotel ubicado en pleno centro a pocos metros de la playa</p>
+                </div>
+                <div>
+                             <button class="btn btn-primary btn-reserva">Reservar</button>
+                </div>
+             </div>
 
             </div> <!--d-flex-->
-      </div> <!-- CONTAINER-->
-  
-      <footer>
-          <div class="row">
+      </div>
+    <!-- CONTENIDO,  aquí termina -->
+
+      <!-- FOOTER, desde aquí inicia -->
+      <footer class="">
+          <div class=" row ">
             <div class="col-sm-4 d-flex flex-column">
                 <a href="https://www.google.com">Google</a>
                 <a href="https://www.facebook.com">Facebook</a>
@@ -148,9 +222,9 @@
             </div>
         </div><!-- ROW-->
       </footer>
+      <!-- FOOTER, aquí termina -->
 
-    <!-- Optional JavaScript; choose one of the two! -->
-
+    
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="node_modules/jquery/dist/jquery.min.js" ></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
