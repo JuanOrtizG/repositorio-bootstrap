@@ -50,23 +50,38 @@
         </nav>
         <!-- BREADCRUMB END-->
 
-        <div class="d-flex">
-            <!-- cambiar a row-->
+        <!-- CABEZA DEL COLLAPSE-->
+        <div class="row">
             <div class="col-sm-4">
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#funciona" aria-expanded="false" aria-controls="multicollapse1">¿Cómo funciona?</button>
+            </div>
+
+            <div class="col-sm-4">
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#reserva" aria-expanded="false" aria-controls="multicollapse2">¿Cómo Reservo?</button>
+            </div>
+
+            <div class="col-sm-4">
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#pago" aria-expanded="false" aria-controls="multicollapse3">¿Cómo pago?</button>
+            </div>
+        </div>
+        <!-- CABEZA DEL COLLAPSE , hasta aquí-->
+        <div class="row">
+            <!-- cambiar a row-->
+            <div class="col-sm-4 collapse multi-collapse"  id="funciona">
                 <p>
                 <h3>¿Cómo funciona?</h3>
                 <p>Buscá los hoteles de acuerdo a tu preferencia.</p>
                 </p>
             </div>
 
-            <div class="col-sm-4">
+            <div class="col-sm-4 collapse multi-collapse" id="reserva">
                 <p>
                 <h3>¿Dónde puedo Reservar?</h3>
                 <p>Elija la ciudad que te interese y luego realiza la reserva con tus datos. </p>
                 </p>
             </div>
 
-            <div class="col-sm-4">
+            <div class="col-sm-4 collapse multi-collapse" id="pago">
                 <p>
                 <h3>¿Cómo pago?</h3>
                 <p>Utiliza tu tarjeta favorita </p>
