@@ -90,6 +90,54 @@
         </div><!-- d-FLEX-->
         <hr>
 
+
+        <!-- CAROUSEL -->
+            <div class="carousel slide" id="carouselControls" data-ride ="carousel">
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="imagen/carousel-chica.webp" alt="Primer Slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5> Los Mejores atardeceres</h5>
+                            <p> Estás a un paso de lograrlo...</p>
+                          </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="imagen/carousel-playa.webp" alt="Segundo Slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Las mejores Playas...</h5>
+                            <p>Beneficios para tu familia</p>
+                          </div>
+                    </div>
+
+                    <div class="carousel-item ">
+                        <img class="d-block w-100" src="imagen/carousel-estrella.jpg" alt="Tercer Slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Naturaleza</h5>
+                            <p>Mejoramos tu vida en estas vacaciones</p>
+                          </div>
+                    </div>
+
+                </div>
+                <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                
+                <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                </a>
+
+            </div>
+
+         <!--########### CAROUSEL -->
+
+
+
+
         <!-- CARD-HOTEL-->
 
         <div class="d-flex flex-wrap flex-row-reverse ">
@@ -306,6 +354,9 @@
         $(function () {
             $('[data-toggle="tooltip"]').tooltip();
             $('[data-toggle="popover"]').popover();
+            $('.carousel').carousel({
+                interval:2000
+            });
         });
     </script>
 
