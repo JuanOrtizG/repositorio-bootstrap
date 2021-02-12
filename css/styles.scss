@@ -1,0 +1,53 @@
+$azul-tipo: #004581;
+
+@mixin margenes ($top, $bottom){
+    margin-top: $top;
+    margin-bottom: $bottom;
+}
+
+
+
+.jumbotron {
+    background-color: $azul-tipo;
+    color:white;
+    @include margenes (50px, 0px); 
+    
+}
+
+footer{
+    padding: 10px 10px 10px 10px;
+    background-color: $azul-tipo;
+    color: white;
+
+    @include margenes(10px,0px );
+   // margin-bottom: 0px;
+   // margin-top:10px
+}
+
+footer div a{
+    color:white;
+}
+
+.card-hotel{
+    flex: 1 200px;
+    padding: 2px 0px 2px 0px;
+    @include margenes(10px, 0px ); 
+   // margin-top: 10px;
+}
+
+.btn-reserva{
+    width: 100%
+    
+}
+
+.footer-address-icon{
+    padding-right: 10px; 
+}
+
+.tab-content{
+    padding-top: 10px;
+}
+
+h5:hover{
+    color: grey
+}
