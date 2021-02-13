@@ -1,5 +1,9 @@
 $azul-tipo: #004581;
 
+$azul: #00f;
+$amarillo: #ff0;
+$verde: #0f0; 
+
 @mixin margenes ($top, $bottom){
     margin-top: $top;
     margin-bottom: $bottom;
