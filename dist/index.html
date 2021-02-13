@@ -8,11 +8,7 @@
 
     <!-- Bootstrap CSS -->
 
-    <!-- build:css dist/index.css  -->
-    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
-    <!-- endbuild -->
+    <link rel="stylesheet" href="dist/index.css">
 
     <title>Hello, world!</title>
 </head>
@@ -350,37 +346,7 @@
 
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <!-- build:js dist/index.js  -->
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script>
-        $(function () {
-            $('[data-toggle="tooltip"]').tooltip();
-            $('[data-toggle="popover"]').popover();
-
-            $('.carousel').carousel({  interval:2000  });
-            
-            $('#contacto').on(' show.bs.modal', function(e){  
-                                                                                                console.log("El modal contacto se está mostrando");            
-                                                                                                $('#contactoBtn').removeClass('btn-outline-success'); 
-                                                                                                $('#contactoBtn').addClass('btn-primary'); 
-                                                                                                $('#contactoBtn').prop('disabled', true); 
-
-                                                                                            
-                                                                                    });
-            $('#contacto').on(' shown.bs.modal', function(e){  console.log("El modal contacto se mostró");            });
-            $('#contacto').on(' hide.bs.modal', function(e){  console.log("El modal contacto se oculta");            });
-            $('#contacto').on(' hidden.bs.modal', function(e){  
-                                                                                                console.log("El modal contacto se ocultó");
-                                                                                                $('#contactoBtn').prop('disabled', false);
-                                                                                               $('#contactoBtn').addClass('btn-outline-success'); 
-
-                                                                                                        });
-
-           });
-    </script>
-    <!-- endbuild -->
+    <script src="dist/index.js"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--

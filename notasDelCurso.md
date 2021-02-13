@@ -34,3 +34,10 @@ no olvidar referenciar en el archivo html las links a bootstrap, jquery y popper
 
 # BUSQUEDA EN GOOGLE
 html color picker
+
+
+<!-- build:css dist/index.css  -->
+<!-- endbuild -->
+
+
+<!-- build:js dist/index.js  -->
